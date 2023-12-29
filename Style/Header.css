@@ -1,0 +1,76 @@
+header {
+    z-index: 10;
+    background-color: #191C19;
+    line-height: 1.2;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    height: 80px;
+    box-shadow: 0px 0em 3em 1em #191C19;
+}
+
+header h1 {    
+    font-size: 2.5em;
+    font-weight: 700;
+    margin: 0px;
+}
+
+header small {
+    font-size: x-large;
+}
+
+header div
+{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header div.title {
+    position: relative;
+    float: left;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+header div.buttons {
+    float: right;
+    display: flex;
+    justify-content: flex-start;
+    transform: translateY(50%);
+}
+
+
+header a.resume {
+    display: flex;
+    align-items: center;
+    height: calc(35px - 6px);
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 30px;
+    border-color: #6EE66A;
+    color: #6EE66A;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 0px 15px;
+    margin: 0px 5px;
+    transition: 0.5s;    
+}
+
+header a.resume:hover {
+    border-color: #B8FDB6;
+    background-color: #B8FDB6;
+    color: #191C19;
+}
+
+header img {
+    height: 35px;
+    width: 35px;
+    margin: 0px 5px;
+    filter: invert(86%) sepia(17%) saturate(1514%) hue-rotate(59deg) brightness(95%) contrast(90%);
+    transition: 0.5s;
+}
+
+header img:hover {
+    filter: invert(93%) sepia(9%) saturate(1205%) hue-rotate(58deg) brightness(95%) contrast(110%);
+}

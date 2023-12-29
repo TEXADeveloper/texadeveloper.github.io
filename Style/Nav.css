@@ -1,0 +1,50 @@
+nav {
+    min-height: 300px;
+    margin: 0px 1%;
+    margin-top: 3em;
+}
+
+nav div.image {
+    float: right;
+    --imageWidth: 300px;
+    width: var(--imageWidth);
+    height: 300px;
+    transition: 0.5s;
+}
+
+nav div.image:hover {
+    transform: scale(1.05);
+}
+
+nav div.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: calc(100% - var(--imageWidth));
+}
+
+nav div.index{
+    width: 100%;
+    padding-left: 3%;
+}
+
+nav div.index a {
+    display: block;
+    width: 20%;
+    color: #6EE66A;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: 0.5s;
+}
+
+nav div.index a:hover {
+    color: #B8FDB6;
+}
+
+nav div.info {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+nav div.info p {
+    margin-top: 2.2em;
+}

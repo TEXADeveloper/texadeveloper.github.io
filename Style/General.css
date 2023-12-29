@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;500;700&family=Raleway:wght@300;500;700&display=swap');
+
+/* paleta de colores:
+    191C19
+    262B26
+    323932
+    45C243
+    6EE66A
+    B8FDB6
+    cce6cb
+*/
+
+
+* {
+    font-family: 'Raleway', 'Barlow', sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+html {
+    color: #6EE66A;
+    background-color: #191C19;
+    margin: 0px;
+}
+
+body {
+    margin: 0px;
+}
