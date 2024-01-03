@@ -132,7 +132,7 @@ main div.educationContainer {
 }
 
 main div.education {
-    --educationHeight: 5rem;
+    --educationHeight: 6rem;
     --educationWidth: 47%;
     --borderRadius: 1rem;
     height: var(--educationHeight);
