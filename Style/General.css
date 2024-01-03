@@ -21,6 +21,7 @@ html {
     color: #6EE66A;
     background-color: #191C19;
     margin: 0rem;
+    scroll-behavior: smooth;
 }
 
 body {

@@ -1,0 +1,30 @@
+[
+    {
+        "title": "EMT Informática",
+        "institution": "Instituto ITS",
+        "imageLink": "Images/Education/Utu.png",
+        "time": "2019-2020",
+        "url": "https://www.google.com.uy"
+    },
+    {
+        "title": "Ingeniero en computación",
+        "institution": "FING",
+        "imageLink": "Images/Education/Utu.png",
+        "time": "In Course",
+        "url": "https://www.google.com.uy"
+    },
+    {
+        "title": "Ingeniero en computación",
+        "institution": "FING",
+        "imageLink": "Images/Education/Utu.png",
+        "time": "In Course",
+        "url": "https://www.google.com.uy"
+    },
+    {
+        "title": "EMT Informática",
+        "institution": "Instituto ITS",
+        "imageLink": "Images/Education/Utu.png",
+        "time": "2019-2020",
+        "url": "https://www.google.com.uy"
+    }
+]

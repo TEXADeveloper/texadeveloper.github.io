@@ -21,10 +21,15 @@ main h2 {
     margin-bottom: 0rem;
 }
 
+main div#MyGames {
+    scroll-margin-top: 5rem;
+}
+
 main div.gameContainer {
     width: 90%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -85,13 +90,17 @@ main div.game a div.info p {
     transition: 0.5s;
 }
 
+main div#MySkills {
+    scroll-margin-top: 5rem;
+}
+
 main div.skillSection ul {
     display: flex;
     flex-wrap: wrap;
-    width: fit-content;
+    justify-content: center;
     list-style: none;
     margin: 1.5% 0rem;
-    padding-left: 6%;
+    padding: 0rem 6%;
 }
 
 main div.skillSection li {
@@ -103,6 +112,10 @@ main div.skillSection li {
     margin: 0.2rem 0.3rem;
     font-weight: 700;
     font-size: 1.1rem;
+}
+
+main div#MyEducation {
+    scroll-margin-top: 5rem;
 }
 
 main div.educationSection {

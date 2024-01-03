@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<base href="./">
-		<title>Inti Fernandez | Sobre Mi</title>
+		<title>Inti Fernandez | Portfolio</title>
 		<link rel="icon" href="Images/TEXADev logo.png" type="image/png" />
 		<link rel="stylesheet" href="Style/General.css">
 		<link rel="stylesheet" href="Style/Header.css">
@@ -35,7 +35,7 @@
 					<a href="#MyGames">Games</a>
 					<a href="#MySkills">Skills</a>
 					<a href="#MyEducation">Education</a>
-					<a href="#Me">Me</a>
+					<a href="#AboutMe">About Me</a>
 				</div>
 				<div class="info">
 					<p>Gameplay and mechanics programmer, although adaptable to other areas. I enjoy solving problems with neat and clean code.</p>
@@ -44,88 +44,29 @@
 		</nav>
 		<main>
 			<div class="gameSection" id="MyGames">
-				<h1>Mis Juegos</h1>
-				<div class="gameContainer">
-					<div class="game">
-						<div class="image" style="background-image: url('Images/Games/Haste.png');"></div>
-						<a href="https://www.youtube.com" target="_self">
-							<div class="info">
-								<h1 class="title">Haste</h1>
-								<p>Este es el repositorio perteneciente a Haste. Esto, es un trabajo para la UTU ESI (Escuela Superior de Informática). Se utilizará este medio para ramificar el proyecto y trabajar en conjunto.</p>
-							</div>
-						</a>
-					</div>
-					<div class="game">
-						<div class="image" style="background-image: url('Images/Games/Haste.png');"></div>
-						<a href="https://www.youtube.com" target="_self">
-							<div class="info">
-								<h1 class="title">Haste</h1>
-								<p>Este es el repositorio perteneciente a Haste. Esto, es un trabajo para la UTU ESI (Escuela Superior de Informática). Se utilizará este medio para ramificar el proyecto y trabajar en conjunto.</p>
-							</div>
-						</a>
-					</div>
+				<h1>My Games</h1>
+				<div class="gameContainer" id="gameOutput">
 				</div>
 			</div>
 			<div class="skillSection" id="MySkills">
 				<h1>Skills</h1>
 				<h2>Technical Skills:</h2>
-				<ul>
-					<li>C#</li>
-					<li>C++</li>
-					<li>Java</li>
-					<li>Unity</li>
-					<li>Godot</li>
-					<li>Git</li>
-					<li>GitHub/GitLab</li>
-					<li>POO</li>
-					<li>Clean Code</li>
+				<ul id="techSkillsOutput">
 				</ul>
 				<h2>Soft Skills:</h2>
-				<ul>
-					<li>Team Work</li>
-					<li>Adaptability</li>
-					<li>Fast Learing</li>
-					<li>Problem Solving</li>
-					<li>Analytical Thinking</li>
-					<li>Organization</li>
+				<ul id="softSkillsOutput">
 				</ul>
 			</div>
 			<div class="educationSection" id="MyEducation">
 				<h1>Education</h1>
-				<div class="educationContainer">
-					<div class="education">
-						<div class="image" style="background-image: url('Images/Education/Utu.png');"></div>
-						<a href="https://www.google.com" target="_self">
-							<div class="info">
-								<div class="title">
-									<h1>Instituto ITS</h1>
-									<h2>2019-2020</h2>
-								</div>
-								<small>EMT Informática</small>
-							</div>
-							<div class="arrow"></div>
-						</a>
-					</div>
-					<div class="education">
-						<div class="image" style="background-image: url('Images/Education/Utu.png');"></div>
-						<a href="https://www.google.com" target="_self">
-							<div class="info">
-								<div class="title">
-									<h1>Instituto ITS</h1>
-									<h2>In Progress</h2>
-								</div>
-								<small>EMT Informática</small>
-							</div>
-							<div class="arrow"></div>
-						</a> 
-					</div>
+				<div class="educationContainer" id="educationOutput">
 				</div>
 			</div>
 		</main>
-		<footer id="Me">
+		<footer id="AboutMe">
 			<div class="container">
 				<div class="info">
-					<h1>Me</h1>
+					<h1>About Me</h1>
 					<p>My name is <b>Inti Fernández</b>, I'm 19 years old and I was born in Uruguay where I've lived my whole life.<br>
 						I studied <b>IT</b> and <b>Game development</b> at labour university and I'm now studying <b>Computer Engineering</b> at <b>UDELAR's Faculty of Engineering</b>.</p>
 					<p>Since I was a kid I always enjoyed <b>playing videogames</b>, when I grew up I decided to return the world the same it gave me, Thats why I started learning <b>IT, programming and software and game development</b>.</p>
@@ -142,5 +83,6 @@
 				</div>
 			</div>
 		</footer>
+		<script src="Data/DataReader.js"></script>
 	</body>
 </html>
