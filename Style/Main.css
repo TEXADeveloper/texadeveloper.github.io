@@ -1,6 +1,6 @@
 main {
     display: block;
-    margin: 0px 1%;
+    margin: 0rem 1%;
 }
 
 main div.gameSection {
@@ -8,17 +8,17 @@ main div.gameSection {
 }
 
 main h1 {
-    font-size: 1.6em;
+    font-size: 1.6rem;
     font-weight: 700;
     padding-left: 3%;
-    margin-bottom: 0px;
+    margin-bottom: 0rem;
 }
 
 main h2 {
-    font-size: 1.3em;
+    font-size: 1.3rem;
     font-weight: 700;
     padding-left: 5%;
-    margin-bottom: 0px;
+    margin-bottom: 0rem;
 }
 
 main div.gameContainer {
@@ -30,12 +30,11 @@ main div.gameContainer {
 }
 
 main div.game {
-    background-color: #323932;
     width: 48%;
-    height: 25em;
+    height: 25rem;
     margin: 1%;
-    border-radius: 15px;
-    color: #cce6cb;
+    background-color: #323932;
+    border-radius: 1rem;
     display: flex;
     flex-direction: column;
     overflow: clip;
@@ -50,29 +49,40 @@ main div.game div.image {
     background-position: center;
 }
 
-main div.game div.info {
-    width: auto;
-    height: 40%;
+main div.game a {
+    width: 94%;
+    height: 38%;
     padding: 1% 3%;
-    overflow: hidden;
+    text-decoration: none;
+    color: #CCE6CB;
 }
 
-main div.game div.info h1 {
-    width: 100%;
-    font-size: 1.6em;
-    margin: 0.3em 0em;
-    padding: 0px;
-    transition: 0.5s;
-}
-
-main div.game div.info h1:hover {
-    transform: translateX(2%);
+main div.game a:hover > .info {
     color: #B8FDB6;
 }
 
-main div.game div.info p {
-    font-size: 1em;
-    margin: 0.4em 0em;
+main div.game a:hover > div.info h1 {
+    transform: translateX(1.5rem);
+}
+
+main div.game a div.info {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;  
+}
+
+main div.game a div.info h1 {
+    width: 100%;
+    font-size: 1.6rem;
+    margin: 0.3rem 0rem;
+    padding: 0rem;
+    transition: 0.5s;
+}
+
+main div.game a div.info p {
+    font-size: 1rem;
+    margin: 0.4rem 0rem;
+    transition: 0.5s;
 }
 
 main div.skillSection ul {
@@ -80,19 +90,19 @@ main div.skillSection ul {
     flex-wrap: wrap;
     width: fit-content;
     list-style: none;
-    margin: 1.5% 0%;
+    margin: 1.5% 0rem;
     padding-left: 6%;
 }
 
 main div.skillSection li {
     border-style: solid;
-    border-width: 3px;
-    border-radius: 30px;
+    border-width: 0.2rem;
+    border-radius: 2rem;
     border-color: #6EE66A;
-    padding: 5px 15px;
-    margin: 3px 5px;
+    padding: 0.3rem 1rem;
+    margin: 0.2rem 0.3rem;
     font-weight: 700;
-    font-size: 1.1em;
+    font-size: 1.1rem;
 }
 
 main div.educationSection {
@@ -109,15 +119,15 @@ main div.educationContainer {
 }
 
 main div.education {
-    --educationHeight: 5em;
+    --educationHeight: 5rem;
     --educationWidth: 47%;
-    --borderRadius: 15px;
+    --borderRadius: 1rem;
     height: var(--educationHeight);
     width: var(--educationWidth);
     border-radius: var(--borderRadius);
     background-color: #323932;
-    margin: 1% calc(((100%/2) - var(--educationWidth))/2);
-    color: #cce6cb;
+    margin: 1% calc((50% - var(--educationWidth))/2);
+    color: #CCE6CB;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -127,42 +137,74 @@ main div.education {
 main div.education div.image {
     width: var(--educationHeight);
     border-radius: var(--borderRadius);
-    margin-right: 3%;
     height: 100%;
+    margin-right: 3%;
     background-color: #262B26;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
-main div.education div.info {
-    flex: 1
+main div.education a {
+    width: calc(100% - 3% - var(--educationHeight));
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: clip;
+    text-decoration: none;
+    color: #CCE6CB;
+    transition: 0.5s;
+}
+
+main div.education a:hover > .arrow {
+    transform: translateX(0.4rem);
+    filter: invert(92%) sepia(8%) saturate(1413%) hue-rotate(59deg) brightness(101%) contrast(98%);
+}
+
+main div.education a:hover {
+    color: #B8FDB6;
+}
+
+main div.education div.info {    
+    flex: 1;
+}
+
+main div.education a div.info div.title {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 main div.education div.info h1 {
-    width: 100%;
-    font-size: 1.6em;
-    margin: 0em;
-    padding: 0px;
+    width: 55%;
+    font-size: 1.6rem;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+main div.education div.info h2 {
+    width: 45%;
+    margin: 0rem;
+    padding: 0rem;
+    text-align: right;
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: #A3B7A2;
 }
 
 main div.education div.info small {
-    font-size: 1.2em;
-    margin: 0em;
+    font-size: 1.2rem;
+    margin: 0rem;
 }
 
 main div.education div.arrow {
     height: 100%;
-    width: 3em;
+    width: 3rem;
     background-image: url('../Images/Buttons/Arrow.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     filter: invert(94%) sepia(12%) saturate(382%) hue-rotate(62deg) brightness(93%) contrast(94%);
     transition: 0.5s;
-}
-
-main div.education div.arrow:hover {
-    transform: translateX(5%);
-    filter: invert(92%) sepia(8%) saturate(1413%) hue-rotate(59deg) brightness(101%) contrast(98%);
 }

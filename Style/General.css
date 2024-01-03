@@ -7,22 +7,22 @@
     45C243
     6EE66A
     B8FDB6
-    cce6cb
+    CCE6CB
 */
 
 
 * {
     font-family: 'Raleway', 'Barlow', sans-serif;
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: 500;
 }
 
 html {
     color: #6EE66A;
     background-color: #191C19;
-    margin: 0px;
+    margin: 0rem;
 }
 
 body {
-    margin: 0px;
+    margin: 0rem;
 }
