@@ -18,8 +18,8 @@ footer h1 {
 }
 
 footer p {
-    padding: 0rem 5%;
-    padding-right: 2%;
+    padding-left: 5%;
+    margin-right: 2%;
 }
 
 footer b {
@@ -29,6 +29,14 @@ footer b {
 footer div.container {
     display: flex;
     flex-direction: row;
+    height: 100%;
+}
+
+footer div.vl {
+    border-left: 0.1rem solid #323932;
+    border-radius: 20rem;
+    margin: 2% 0rem;
+    margin-left: 2%;
 }
 
 footer div.container div.contact {
