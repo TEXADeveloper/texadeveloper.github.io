@@ -1,20 +1,32 @@
 [
     {
-        "name": "Haste",
-        "description": "asdfsdf",
-        "imageLink": "Images/Games/Haste.png",
-        "repository": "https://www.github.com"
+        "title": "Pyramid Of Babel",
+        "description": "Explore the deeps of the crypt from the Pyramid of Babel. Solve ancient puzzles and challenge the assassins from the Order of Silence to claim the knowledge these tombs guard.<br><br><b>Made for Jam2Jam's WinterJam 2022.</b>",
+        "imageLink": "Images/Games/Pyramid Of Babel.png",
+        "repository": "https://texadev.itch.io/pyramid-of-babel"
     },
     {
-        "name": "Haste",
-        "description": "asdfsdf",
-        "imageLink": "Images/Games/Haste.png",
-        "repository": "https://www.github.com"
+        "title": "Chat Em Up",
+        "description": "Twitch chat interactive game. Invite your viewers to challenge you by spawning enemies, survive as long as you can and beat your highscore,",
+        "imageLink": "Images/Games/Chat Em Up.png",
+        "repository": "https://texadev.itch.io/chat-em-up"
     },
     {
-        "name": "Haste",
-        "description": "asdfsdf",
+        "title": "To The Roots",
+        "description": "You're a decay inside a mouth with the objective of infect all the teeth, by pressing e while on it's side you'll be able to destroy them until you reach the root of every single teeth.<br><br><b>Made for Jam2Jam's Global Game Jam 2023</b>.",
+        "imageLink": "Images/Games/To The Roots.png",
+        "repository": "https://texadev.itch.io/to-the-roots"
+    },
+    {
+        "title": "Haste",
+        "description": "Speed and Humour were the theme that they gave us for this game. It is my first game, made as the final project for the labour university and we got the highest mark possible.<br>Every single thing in the game was learnt and made from scratch in 4 months.",
         "imageLink": "Images/Games/Haste.png",
-        "repository": "https://www.github.com"
+        "repository": "https://texadev.itch.io/haste"
+    },
+    {
+        "title": "Ping Online",
+        "description": "My first attempt to create an online multiplayer game using mirror library for unity. I made the classic pong game with an alternative 4 player game mode, and then made multiplayer system.<br>The game was not fully tested but it should cover all basic functionality.",
+        "imageLink": "Images/Games/Ping Online.png",
+        "repository": "https://texadev.itch.io/ping-online"
     }
 ]

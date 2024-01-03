@@ -48,7 +48,7 @@ function loadEducation(education) {
         out += `
             <div class="education">
                 <div class="image" style="background-image: url('${edu.imageLink}');"></div>
-                <a href="${edu.url}" target="_self">
+                <a href="${edu.url}" target="_blank">
                     <div class="info">
                         <div class="title">
                             <h1>${edu.institution}</h1>

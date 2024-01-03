@@ -67,7 +67,7 @@ main div.game a:hover > .info {
 }
 
 main div.game a:hover > div.info h1 {
-    transform: translateX(1.5rem);
+    border-left: 1rem solid #B8FDB6;
 }
 
 main div.game a div.info {
@@ -81,6 +81,8 @@ main div.game a div.info h1 {
     font-size: 1.6rem;
     margin: 0.3rem 0rem;
     padding: 0rem;
+    border-left: 0.1rem solid #CCE6CB;
+    padding-left: 0.5rem;
     transition: 0.5s;
 }
 
@@ -88,6 +90,10 @@ main div.game a div.info p {
     font-size: 1rem;
     margin: 0.4rem 0rem;
     transition: 0.5s;
+}
+
+main div.game a div.info b {
+    font-weight: 700;
 }
 
 main div#MySkills {
@@ -132,7 +138,7 @@ main div.educationContainer {
 }
 
 main div.education {
-    --educationHeight: 6rem;
+    --educationHeight: 7rem;
     --educationWidth: 47%;
     --borderRadius: 1rem;
     height: var(--educationHeight);
@@ -171,7 +177,7 @@ main div.education a {
 }
 
 main div.education a:hover > .arrow {
-    transform: translateX(0.4rem);
+    transform: translateX(0.65rem);
     filter: invert(92%) sepia(8%) saturate(1413%) hue-rotate(59deg) brightness(101%) contrast(98%);
 }
 
@@ -213,7 +219,7 @@ main div.education div.info small {
 
 main div.education div.arrow {
     height: 100%;
-    width: 3rem;
+    width: 4rem;
     background-image: url('../Images/Buttons/Arrow.png');
     background-size: contain;
     background-repeat: no-repeat;

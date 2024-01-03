@@ -1,30 +1,30 @@
 [
     {
-        "title": "EMT Informática",
-        "institution": "Instituto ITS",
-        "imageLink": "Images/Education/Utu.png",
+        "title": "Computer Engineering",
+        "institution": "UDELAR",
+        "imageLink": "Images/Education/FING.png",
+        "time": "In Progress",
+        "url": "https://www.fing.edu.uy/es/carrera/grado/ingenier%C3%ADa-en-computaci%C3%B3n"
+    },
+    {
+        "title": "IT Bachelor",
+        "institution": "ITS Institute",
+        "imageLink": "Images/Education/ITS.jpg",
         "time": "2019-2020",
-        "url": "https://www.google.com.uy"
+        "url": "https://planeamientoeducativo.utu.edu.uy/sites/cursos.utu.edu.uy/oferta-educativa/2005/2004/TICUR/049/EMT%20Informatica%20reformulacion.htm"
     },
     {
-        "title": "Ingeniero en computación",
-        "institution": "FING",
-        "imageLink": "Images/Education/Utu.png",
-        "time": "In Course",
-        "url": "https://www.google.com.uy"
+        "title": "IT Bachelor - Videogames",
+        "institution": "ESI School",
+        "imageLink": "Images/Education/ESI.png",
+        "time": "2021",
+        "url": "https://www.utu.edu.uy/educacion-media-tecnologica-informatica-enfasis-desarrollo-y-soporte-desarrollo-web-videojuegos"
     },
     {
-        "title": "Ingeniero en computación",
-        "institution": "FING",
-        "imageLink": "Images/Education/Utu.png",
-        "time": "In Course",
-        "url": "https://www.google.com.uy"
-    },
-    {
-        "title": "EMT Informática",
-        "institution": "Instituto ITS",
-        "imageLink": "Images/Education/Utu.png",
-        "time": "2019-2020",
-        "url": "https://www.google.com.uy"
+        "title": "Cambridge First Certificate - B2",
+        "institution": "IUDEI Institute",
+        "imageLink": "Images/Education/IUDEI.png",
+        "time": "2013-2021",
+        "url": "https://www.cambridgeenglish.org/exams-and-tests/first/"
     }
 ]
