@@ -1,0 +1,179 @@
+header div.home {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main {
+    margin: 0rem 1%;
+    margin-top: 2rem;
+}
+
+main div.summary {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: 100%;
+}
+
+main div.imageContainer {
+    min-width: 48%;
+    flex-grow: 100;
+    max-width: 63%;
+    height: 25rem;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 1rem;
+    background-color: #262B26;
+}
+
+main div.imageContainer div.image {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.7rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main div.projectInformation {
+    min-width: 33%;
+    max-width: 48%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+main div.projectInformation div.info {
+    width: 80%;
+    padding: 7% 10%;
+    overflow: clip;
+    border-radius: 1rem;
+    background-color: #262B26;
+}
+
+main div.projectInformation div.info h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+main div.projectInformation div.info ul{
+    list-style: none;
+    margin: 0%;
+    padding-left: 1rem;
+    text-indent: -1rem;
+}
+
+main div.projectInformation div.info li {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 0.4rem 0rem;
+    vertical-align: middle;
+}
+
+main div.projectInformation div.info li a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #B8FDB6;
+    transition: 0.5s;
+}
+
+main div.projectInformation div.info li a:hover {
+    color: #CCE6CB;
+}
+
+main div.projectInformation div.info li a:hover > b {
+    color: #B8FDB6;
+}
+
+main div.projectInformation div.info b {
+    font-weight: 500;
+    color: #6EE66A;
+    transition: 0.5s;
+}
+
+main div.projectInformation div.info b:after {
+    content: ":";
+    margin-right: 0.7rem;
+    font-weight: 500;
+}
+
+main div.projectInformation div.info img.icon {
+    height: 1.2rem;
+    margin-right: 0.5rem;
+    vertical-align: -0.2rem;
+    filter: invert(86%) sepia(17%) saturate(1514%) hue-rotate(59deg) brightness(95%) contrast(90%);
+}
+
+main div.projectInformation div.download {
+    width: 100%;
+    flex-grow: 100;
+    margin-top: 4%;
+}
+
+main div.projectInformation a.downloadButton {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    background-color: #262B26;
+    color: #6EE66A;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.8em;
+    transition: 0.5s;
+}
+
+main div.projectInformation a.downloadButton img {
+    height: 2em;
+    margin-right: 0.5rem;
+    vertical-align: -0.2rem;
+    filter: invert(86%) sepia(17%) saturate(1514%) hue-rotate(59deg) brightness(95%) contrast(90%);
+    transition: 0.5s;
+}
+
+main div.projectInformation a.downloadButton:hover {
+    color: #191C19;
+    background-color: #6EE66A;
+}
+
+main div.projectInformation a.downloadButton:hover > img {
+    filter: invert(5%) sepia(11%) saturate(874%) hue-rotate(71deg) brightness(96%) contrast(87%);
+}
+
+main div.description {
+    width: calc(100 - 2*margin - 2*padding);
+    height: fit-content;
+    margin: 1%;
+    padding: 3%;
+    border-radius: 1rem;
+    background-color: #262B26;
+    color: #CCE6CB;
+}
+
+main div.description h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+}
+
+main div.description p {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+main div.description b {
+    font-weight: 700;
+}
+
+main div#descriptionOutput {
+    width: 100%;
+    height: fit-content;
+}
