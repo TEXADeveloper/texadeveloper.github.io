@@ -26,15 +26,14 @@ function loadData(url, id, propertyPath)
 
 function loadGames(games) {
     let out = "";
-    console.log(games);
     for (var i in games) {
         out += `
             <div class="game">
-                <div class="image" style="background-image: url('${games[i].imageLink}');"></div>
+                <div class="image" style="background-image: url('${games[i].thumbnail}');"></div>
                 <a href="./Pages/Games.html?id=${i}" target="_self">
                     <div class="info">
                         <h1 class="title">${games[i].title}</h1>
-                        <p>${games[i].description}</p>
+                        <p>${games[i].shortDescription}</p>
                     </div>
                 </a>
             </div>

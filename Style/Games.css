@@ -21,7 +21,7 @@ main div.imageContainer {
     min-width: 48%;
     flex-grow: 100;
     max-width: 63%;
-    height: 25rem;
+    height: 28rem;
     margin: 1%;
     padding: 1%;
     border-radius: 1rem;
@@ -55,7 +55,7 @@ main div.projectInformation div.info {
 }
 
 main div.projectInformation div.info h1 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: 700;
     margin-top: 0rem;
     margin-bottom: 1rem;
@@ -126,12 +126,12 @@ main div.projectInformation a.downloadButton {
     color: #6EE66A;
     text-decoration: none;
     font-weight: 700;
-    font-size: 1.8em;
+    font-size: 2em;
     transition: 0.5s;
 }
 
 main div.projectInformation a.downloadButton img {
-    height: 2em;
+    height: 2.2em;
     margin-right: 0.5rem;
     vertical-align: -0.2rem;
     filter: invert(86%) sepia(17%) saturate(1514%) hue-rotate(59deg) brightness(95%) contrast(90%);
