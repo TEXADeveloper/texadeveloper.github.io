@@ -79,15 +79,11 @@ main div.projectInformation div.info li {
 main div.projectInformation div.info li a {
     text-decoration: none;
     font-weight: 700;
-    color: #B8FDB6;
+    color: #6EE66A;
     transition: 0.5s;
 }
 
 main div.projectInformation div.info li a:hover {
-    color: #CCE6CB;
-}
-
-main div.projectInformation div.info li a:hover > b {
     color: #B8FDB6;
 }
 

@@ -9,11 +9,18 @@ function loadGameInfo(id) {
             return response.json();
         })
         .then(function(games) {
+            displayPage(games[id]);
             displayImage(games[id]);
             displayInfo(games[id]);
             displayButton(games[id]);
             displayDescription(games[id])
         });
+}
+
+function displayPage(game) {
+    let placeholder = document.getElementById('pageOutput');
+    let out = `Inti Fernandez | ${game.title}`;
+    placeholder.innerHTML = out;
 }
 
 function displayImage(game) {
@@ -26,14 +33,14 @@ function displayInfo(game) {
     let placeholder = document.getElementById('informationOutput');
     let out = `
     <li><img class="icon" src="Images/GamesPage/Title.png"><b>Title</b>${game.title}</li>
-    <li><img class="icon" src="Images/GamesPage/Genere.png"><b>Genere</b>${game.genere}</li>
+    <li><img class="icon" src="Images/GamesPage/Genere.png"><b>Genere</b>${game.genre}</li>
     <li><img class="icon" src="Images/GamesPage/Type.png"><b>Project Type</b>${game.type}</li>
     <li><img class="icon" src="Images/GamesPage/Role.png"><b>Role</b>${game.role}</li>
     <li><img class="icon" src="Images/GamesPage/Team.png"><b>Team Size</b>${game.team}</li>
-    <li><img class="icon" src="Images/GamesPage/Release.png"><b>Release Date</b>${game.release}</li>
-    <li><img class="icon" src="Images/GamesPage/Time.png"><b>Dedicated Time</b>${game.time}</li>
+    <li><img class="icon" src="Images/GamesPage/Release.png"><b>Release Date</b>${game.releaseDate}</li>
+    <li><img class="icon" src="Images/GamesPage/Time.png"><b>Dedicated Time</b>${game.dedicatedTime}</li>
     <li><img class="icon" src="Images/GamesPage/Engine.png"><b>Game Engine</b>${game.engine}</li>
-    <li><img class="icon" src="Images/GamesPage/Github.png"><a href="${game.repository}" target="_blank"><b>Game Repository</b>Github</a></li>
+    <li><img class="icon" src="Images/GamesPage/Git.png"><a href="${game.repository}" target="_blank">Game Repository</a></li>
     `;
     placeholder.innerHTML = out;
 }
