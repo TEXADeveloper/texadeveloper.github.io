@@ -5,6 +5,28 @@ header div.home {
     align-items: center;
 }
 
+header div.home a {
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: 300;
+    text-decoration: none;
+    color: #000;
+    filter: invert(86%) sepia(17%) saturate(1514%) hue-rotate(59deg) brightness(95%) contrast(90%);
+    transition: 0.5s;
+}
+
+header div.home a img {
+    --imgHeight: 2.25rem;
+    height: var(--imgHeight);
+    width: var(--imgHeight);
+    margin: 0rem 0.3rem;
+}
+
+header div.home a:hover {
+    filter: invert(93%) sepia(9%) saturate(1205%) hue-rotate(58deg) brightness(95%) contrast(110%);
+}
+
 main {
     margin: 0rem 1%;
     margin-top: 2rem;
@@ -21,7 +43,7 @@ main div.imageContainer {
     min-width: 48%;
     flex-grow: 100;
     max-width: 63%;
-    height: 28rem;
+    height: 29rem;
     margin: 1%;
     padding: 1%;
     border-radius: 1rem;

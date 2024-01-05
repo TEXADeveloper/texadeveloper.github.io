@@ -21,10 +21,6 @@ nav div.image img {
     height: var(--imageWidth);
 }
 
-nav div.image:hover {
-    transform: scale(1.05);
-}
-
 nav div.container {
     display: flex;
     flex-direction: column;

@@ -11,12 +11,14 @@
         "repository": "https://gitlab.com/ggmartinez1/winterjam2022/-/tree/master",
         "download": "https://texadev.itch.io/pyramid-of-babel",
         "thumbnail": "Images/Games/Pyramid Of Babel.png",
-        "picture": "Images/Games/Pyramid Of Babel.png",
+        "picture": "Images/GamesPage/Pyramid Of Babel.png",
         "shortDescription": "Explore the deeps of the crypt from the Pyramid of Babel. Solve ancient puzzles and challenge the assassins from the Order of Silence to claim the knowledge these tombs guard.<br><br><b>Made for Jam2Jam's WinterJam 2022.</b>",
         "description": [
             "Explore the deeps of the crypt from the Pyramid of Babel. Solve ancient puzzles and challenge the assassins from the Order of Silence to claim the knowledge these tombs guard.",
             "In this game you're inside a maze, the walls contain letters, you have to survive the enemies while you solve the word search game in which you're trapped to unlock de door.",
-            "The team was formed by <b>6 people:<br>1 sound designer<br>2 2D designers<br>1 3D designer<br>2 Programmers</b>",
+            "<b>The team was formed by 6 people:</b>",
+            "<b>Claudio Vignone:</b> Music and Sound Designer<br><b>Bruna Sosa:</b> 2D Designer<br><b>Danilo De Los Reyes:</b> 2D Designer<br><b>Matias Faviere:</b> 3D Designer<br><b>Gonzalo Martinez:</b> Programmer<br><b>Inti Fernández:</b> Programmer",
+            "<br>",
             "The game was made for <b>Jam2Jam's WinterJam 2022.</b>"
         ]
     },
@@ -32,7 +34,7 @@
         "repository": "https://github.com/TEXADeveloper/ChatBeatEmUp",
         "download": "https://texadev.itch.io/chat-em-up",
         "thumbnail": "Images/Games/Chat Em Up.png",
-        "picture": "Images/Games/Chat Em Up.png",
+        "picture": "Images/GamesPage/Chat Em Up.png",
         "shortDescription": "Twitch chat interactive game. Invite your viewers to challenge you by spawning enemies, survive as long as you can and beat your highscore.",
         "description": [
             "Invite your viewers to challenge you by spawning enemies and bosses with chat commands and channel point rewards.",
@@ -54,13 +56,15 @@
         "repository": "https://gitlab.com/dum-company/global-game-jam-2023",
         "download": "https://texadev.itch.io/to-the-roots",
         "thumbnail": "Images/Games/To The Roots.png",
-        "picture": "Images/Games/To The Roots.png",
+        "picture": "Images/GamesPage/To The Roots.png",
         "shortDescription": "You're a decay inside a mouth with the objective of infect all the teeth, by pressing e while on it's side you'll be able to destroy them until you reach the root of every single teeth.<br><br><b>Made for Jam2Jam's Global Game Jam 2023</b>.",
         "description": [
             "You're a decay inside a mouth with the objective of infect all the teeth, by pressing e while on it's side you'll be able to destroy them until you reach the root of every single teeth.",
             "Move through the mouth evading the antibodies that want to stop you, shoot parts of yourself to distract them",
             "Attach to the teeth to expose the root, pick food that lies around the mouth to throw it to destroy the roots.",
-            "The team was formed by <b>6 people:<br>1 sound designer<br>1 2D designers<br>1 3D designer<br>3 Programmers</b>",
+            "<b>The team was formed by 6 people:</b>",
+            "<b>Claudio Vignone:</b> Music and Sound Designer<br><b>Bruna Sosa:</b> 2D Designer<br><b>Matias Faviere:</b> 3D Designer<br><b>Gonzalo Martinez:</b> Programmer<br><b>Kaiel Maglione:</b> Programmer<br><b>Inti Fernández:</b> Programmer",
+            "<br>",
             "The game was made for <b>Jam2Jam's Global Game Jam 2023.</b>"
         ]
     },
@@ -76,13 +80,14 @@
         "repository": "https://github.com/xnusef/Haste",
         "download": "https://texadev.itch.io/haste",
         "thumbnail": "Images/Games/Haste.png",
-        "picture": "Images/Games/Haste.png",
+        "picture": "Images/GamesPage/Haste.png",
         "shortDescription": "Speed and Humour were the theme that they gave us for this game. It was my first game, made as the final project for the labour university and we got the highest mark possible.<br>Every single thing in the game was learnt and made from scratch in 4 months.",
         "description": [
+            "You have no time, your boss is about to fire you and these people keeps interrupting you in your duty, defeat them all and find the ingredients your boss asked you.",
             "Speed and Humour were the theme that they gave us for this game.",
-            "It was my first game, made as the final project for the labour university and we got the highest mark possible.",
-            "Every single thing in the game was learnt and made from scratch in 4 months.",
-            "The team was formed by <b>3 people:<br><b>Braiam Rodriguez:</b> Project Management<br><b>Joel Silveira:</b> 2D Design<br><b>Inti Fernández:</b> Game Designer, Programmer and Narrative Designer"
+            "It was my first game, made as the final project for the labour university and we got the highest mark possible, Learning every single thing for the game during the process in only 4 months.",
+            "The team was formed by <b>3 people:</b>",
+            "<b>Braiam Rodriguez:</b> Project Management<br><b>Joel Silveira:</b> 2D Designer<br><b>Inti Fernández:</b> Game Designer, Programmer and Narrative Designer"
         ]
     },
     {
@@ -97,7 +102,7 @@
         "repository": "https://github.com/TEXADeveloper/Ping-Online",
         "download": "https://texadev.itch.io/ping-online",
         "thumbnail": "Images/Games/Ping Online.png",
-        "picture": "Images/Games/Ping Online.png",
+        "picture": "Images/GamesPage/Ping Online.png",
         "shortDescription": "My first attempt to create an online multiplayer game using mirror library for unity. I made the classic pong game with an alternative 4 player game mode, and then added multiplayer system.<br>The game was not fully tested but it should cover all basic functionality.",
         "description": [
             "My first attempt to create an online multiplayer game using mirror library for unity. I made the classic pong game with an alternative 4 player game mode, and then added multiplayer system.",

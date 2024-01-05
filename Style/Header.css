@@ -51,7 +51,7 @@ header div.buttons {
     align-items: center;
 }
 
-header a.resume {
+header div.buttons a.resume {
     display: flex;
     align-items: center;
     height: 1.875rem;
@@ -68,13 +68,13 @@ header a.resume {
     transition: 0.5s;    
 }
 
-header a.resume:hover {
+header div.buttons a.resume:hover {
     border-color: #B8FDB6;
     background-color: #B8FDB6;
     color: #191C19;
 }
 
-header img {
+header div.buttons img {
     --imgHeight: 2.25rem;
     height: var(--imgHeight);
     width: var(--imgHeight);
@@ -83,6 +83,6 @@ header img {
     transition: 0.5s;
 }
 
-header img:hover {
+header div.buttons img:hover {
     filter: invert(93%) sepia(9%) saturate(1205%) hue-rotate(58deg) brightness(95%) contrast(110%);
 }
