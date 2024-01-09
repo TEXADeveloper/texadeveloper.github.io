@@ -10,7 +10,7 @@ function loadGameInfo(id) {
         })
         .then(function(games) {
             if (games.length <= id) {
-                window.location.replace(window.location.pathname + "/NotFound.html");
+                window.location.replace(window.location.href.replace('Games.html?id=' + id,'') + "NotFound.html");
             } else {
                 displayPage(games[id]);
                 displayImage(games[id]);
