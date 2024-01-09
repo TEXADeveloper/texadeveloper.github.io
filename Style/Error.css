@@ -1,0 +1,39 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 5rem);
+    width: 100vw;
+    transform: translateY(-3rem);
+
+}
+
+main h1 {
+    font-size: 10rem;
+    font-weight: 700;
+    margin: 0rem;
+    padding: 0rem;
+}
+
+main h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0rem;
+    margin-bottom: 1rem;
+    padding: 0rem;
+}
+
+main a {
+    color: #6EE66A;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0rem;
+    padding: 0rem;
+    transition: 0.5s;
+}
+
+main a:hover {
+    color: #B8FDB6;
+}

@@ -9,11 +9,15 @@ function loadGameInfo(id) {
             return response.json();
         })
         .then(function(games) {
-            displayPage(games[id]);
-            displayImage(games[id]);
-            displayInfo(games[id]);
-            displayButton(games[id]);
-            displayDescription(games[id])
+            if (games.length <= id) {
+                window.location.replace("/Pages/NotFound.html");
+            } else {
+                displayPage(games[id]);
+                displayImage(games[id]);
+                displayInfo(games[id]);
+                displayButton(games[id]);
+                displayDescription(games[id])
+            }
         });
 }
 
