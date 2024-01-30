@@ -1,5 +1,31 @@
 [
     {
+        "title": "Milkshake",
+        "genre": "Party, Multiplayer",
+        "type": "Jam",
+        "role": "GamePlay and UI Programmer",
+        "team": "6",
+        "releaseDate": "2024",
+        "dedicatedTime": "48 Hs",
+        "engine": "Unity",
+        "repository": "https://gitlab.com/dum-company/milkshake-ggj-2024",
+        "download": "https://texadev.itch.io/milkshake",
+        "thumbnail": "Images/Games/Milkshake.png",
+        "picture": "Images/GamesPage/Milkshake.png",
+        "shortDescription": "The cows gallop freely in a frenetic battle for <b>FAME</b> and <b>GLORY</b>. Use an <b>INCREDIBLY IRRESPONSIBLE AMOUNT OF WEAPONS</b> to defeat your bovine rivals and gain followers. One shot won't be enough to send you to the slaughterhouse, try hard. <b>THIS IS MILKSHAKE</b>.<br><br><b>Made for Jam2Jam's Global Game Jam 2024.</b>",
+        "description": [
+            "Year 2017. The cows gallop freely in a frenetic battle for <b>FAME</b> and <b>GLORY</b>. Use an <b>INCREDIBLY IRRESPONSIBLE AMOUNT OF WEAPONS</b> to defeat your bovine rivals and gain followers. One shot won't be enough to send you to the slaughterhouse, try hard. <b>THIS IS MILKSHAKE</b>. The game has arrived with more <b>LEVELS</b>, more <b>WEAPONS</b> and more <b>MOOING</b>.",
+            "This is a local multiplayer game for <b>Up to 4 players</b>.",
+            "Fight your friends with <b>strange weapons fow a cow</b>. Use your <b>udders yo shoot milk</b> over your enemies, or get a <b>chicken</b> and <b>make them explode</b>, but be careful <b>your mom's chancla is arround</b> and <b>it always hits</b>. Don't make your friend too angry or he will <b>charge against you</b>.",
+            "Be aware, sometimes there is a strange <b>rain of butcher knives</b> and <b>tractors</b>. And remember to <b>be in the highground</b> when the <b>fleas arrive</b>.",
+            "<br>",
+            "<b>The team was formed by 6 people:</b>",
+            "<b>Claudio Vignone:</b> Music and Sound Designer<br><b>Bruna Sosa:</b> 2D Designer<br><b>Rodney García:</b> 3D Designer<br><b>Matias Faviere:</b> UI Designer<br><b>Gonzalo Martinez:</b> Programmer<br><b>Inti Fernández:</b> Programmer",
+            "<br>",
+            "The game was made for <b>Jam2Jam's Global Game Jam 2024.</b>"
+        ]
+    },
+    {
         "title": "Pyramid Of Babel",
         "genre": "Shooter, Puzzle",
         "type": "Jam",
@@ -8,7 +34,7 @@
         "releaseDate": "2022",
         "dedicatedTime": "48 Hs",
         "engine": "Unity",
-        "repository": "https://gitlab.com/ggmartinez1/winterjam2022/-/tree/master",
+        "repository": "https://gitlab.com/dum-company/winterjam2022",
         "download": "https://texadev.itch.io/pyramid-of-babel",
         "thumbnail": "Images/Games/Pyramid Of Babel.png",
         "picture": "Images/GamesPage/Pyramid Of Babel.png",
