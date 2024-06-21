@@ -14,15 +14,17 @@
         "picture": "Images/GamesPage/Milkshake.png",
         "shortDescription": "The cows gallop freely in a frenetic battle for <b>FAME</b> and <b>GLORY</b>. Use an <b>INCREDIBLY IRRESPONSIBLE AMOUNT OF WEAPONS</b> to defeat your bovine rivals and gain followers. One shot won't be enough to send you to the slaughterhouse, try hard. <b>THIS IS MILKSHAKE</b>.<br><br><b>Made for Jam2Jam's Global Game Jam 2024.</b>",
         "description": [
-            "Year 2017. The cows gallop freely in a frenetic battle for <b>FAME</b> and <b>GLORY</b>. Use an <b>INCREDIBLY IRRESPONSIBLE AMOUNT OF WEAPONS</b> to defeat your bovine rivals and gain followers. One shot won't be enough to send you to the slaughterhouse, try hard. <b>THIS IS MILKSHAKE</b>. The game has arrived with more <b>LEVELS</b>, more <b>WEAPONS</b> and more <b>MOOING</b>.",
-            "This is a local multiplayer game for <b>Up to 4 players</b>.",
-            "Fight your friends with <b>strange weapons fow a cow</b>. Use your <b>udders yo shoot milk</b> over your enemies, or get a <b>chicken</b> and <b>make them explode</b>, but be careful <b>your mom's chancla is arround</b> and <b>it always hits</b>. Don't make your friend too angry or he will <b>charge against you</b>.",
-            "Be aware, sometimes there is a strange <b>rain of butcher knives</b> and <b>tractors</b>. And remember to <b>be in the highground</b> when the <b>fleas arrive</b>.",
+            "<p>Year 2017. The cows gallop freely in a frenetic battle for <b>FAME</b> and <b>GLORY</b>. Use an <b>INCREDIBLY IRRESPONSIBLE AMOUNT OF WEAPONS</b> to defeat your bovine rivals and gain followers. One shot won't be enough to send you to the slaughterhouse, try hard. <b>THIS IS MILKSHAKE</b>. The game has arrived with more <b>LEVELS</b>, more <b>WEAPONS</b> and more <b>MOOING</b>.</p>",
+            "<h2>HOLA</h2>",
+            "<p>This is a local multiplayer game for <b>Up to 4 players</b>.",
+            "<p>Fight your friends with <b>strange weapons fow a cow</b>. Use your <b>udders yo shoot milk</b> over your enemies, or get a <b>chicken</b> and <b>make them explode</b>, but be careful <b>your mom's chancla is arround</b> and <b>it always hits</b>. Don't make your friend too angry or he will <b>charge against you</b>.</p>",
+            "<p>Be aware, sometimes there is a strange <b>rain of butcher knives</b> and <b>tractors</b>. And remember to <b>be in the highground</b> when the <b>fleas arrive</b>.</p>",
+            "<img src=\"Images/GamesPage/Milkshake.png\"/ width=\"500\">",
             "<br>",
-            "<b>The team was formed by 6 people:</b>",
-            "<b>Claudio Vignone:</b> Music and Sound Designer<br><b>Bruna Sosa:</b> 2D Designer<br><b>Rodney García:</b> 3D Designer<br><b>Matias Faviere:</b> UI Designer<br><b>Gonzalo Martinez:</b> Programmer<br><b>Inti Fernández:</b> Programmer",
+            "<p><b>The team was formed by 6 people:</b></p>",
+            "<p><b>Claudio Vignone:</b> Music and Sound Designer<br><b>Bruna Sosa:</b> 2D Designer<br><b>Rodney García:</b> 3D Designer<br><b>Matias Faviere:</b> UI Designer<br><b>Gonzalo Martinez:</b> Programmer<br><b>Inti Fernández:</b> Programmer</p>",
             "<br>",
-            "The game was made for <b>Jam2Jam's Global Game Jam 2024.</b>"
+            "<p>The game was made for <b>Jam2Jam's Global Game Jam 2024.</b></p>"
         ]
     },
     {
@@ -40,12 +42,12 @@
         "picture": "Images/GamesPage/Pyramid Of Babel.png",
         "shortDescription": "Explore the deeps of the crypt from the Pyramid of Babel. Solve ancient puzzles and challenge the assassins from the Order of Silence to claim the knowledge these tombs guard.<br><br><b>Made for Jam2Jam's WinterJam 2022.</b>",
         "description": [
-            "Explore the deeps of the crypt from the Pyramid of Babel. Solve ancient puzzles and challenge the assassins from the Order of Silence to claim the knowledge these tombs guard.",
-            "In this game you're inside a maze, the walls contain letters, you have to survive the enemies while you solve the word search game in which you're trapped to unlock de door.",
-            "<b>The team was formed by 6 people:</b>",
-            "<b>Claudio Vignone:</b> Music and Sound Designer<br><b>Bruna Sosa:</b> 2D Designer<br><b>Danilo De Los Reyes:</b> 2D Designer<br><b>Matias Faviere:</b> 3D Designer<br><b>Gonzalo Martinez:</b> Programmer<br><b>Inti Fernández:</b> Programmer",
+            "<p>Explore the deeps of the crypt from the Pyramid of Babel. Solve ancient puzzles and challenge the assassins from the Order of Silence to claim the knowledge these tombs guard.</p>",
+            "<p>In this game you're inside a maze, the walls contain letters, you have to survive the enemies while you solve the word search game in which you're trapped to unlock de door.</p>",
+            "<p><b>The team was formed by 6 people:</b></p>",
+            "<p><b>Claudio Vignone:</b> Music and Sound Designer<br><b>Bruna Sosa:</b> 2D Designer<br><b>Danilo De Los Reyes:</b> 2D Designer<br><b>Matias Faviere:</b> 3D Designer<br><b>Gonzalo Martinez:</b> Programmer<br><b>Inti Fernández:</b> Programmer</p>",
             "<br>",
-            "The game was made for <b>Jam2Jam's WinterJam 2022.</b>"
+            "<p>The game was made for <b>Jam2Jam's WinterJam 2022.</b></p>"
         ]
     },
     {
@@ -63,11 +65,11 @@
         "picture": "Images/GamesPage/Chat Em Up.png",
         "shortDescription": "Twitch chat interactive game. Invite your viewers to challenge you by spawning enemies, survive as long as you can and beat your highscore.",
         "description": [
-            "Invite your viewers to challenge you by spawning enemies and bosses with chat commands and channel point rewards.",
-            "Survive as long as you can and beat your record or let your chat defeat you.",
-            "Twitch interactive game for streamers, foster chat interaction and have fun at the same time with <b>Chat Em Up</b>.",
-            "The streamer have many options to configure his game:<b><br>Channel Name<br>Max Amount of Enemies<br>Spawn Cooldown<br>Spawn Cooldown Per User<br>Enemies Spawned for each Command</b>",
-            "The project was made on streaming with learning purposes"
+            "<p>Invite your viewers to challenge you by spawning enemies and bosses with chat commands and channel point rewards.</p>",
+            "<p>Survive as long as you can and beat your record or let your chat defeat you.</p>",
+            "<p>Twitch interactive game for streamers, foster chat interaction and have fun at the same time with <b>Chat Em Up</b>.</p>",
+            "<p>The streamer have many options to configure his game:<b><br>Channel Name<br>Max Amount of Enemies<br>Spawn Cooldown<br>Spawn Cooldown Per User<br>Enemies Spawned for each Command</b></p>",
+            "<p>The project was made on streaming with learning purposes.</p>"
         ]
     },
     {
@@ -85,13 +87,13 @@
         "picture": "Images/GamesPage/To The Roots.png",
         "shortDescription": "You're a decay inside a mouth with the objective of infect all the teeth, by pressing e while on it's side you'll be able to destroy them until you reach the root of every single teeth.<br><br><b>Made for Jam2Jam's Global Game Jam 2023</b>.",
         "description": [
-            "You're a decay inside a mouth with the objective of infect all the teeth, by pressing e while on it's side you'll be able to destroy them until you reach the root of every single teeth.",
-            "Move through the mouth evading the antibodies that want to stop you, shoot parts of yourself to distract them",
-            "Attach to the teeth to expose the root, pick food that lies around the mouth to throw it to destroy the roots.",
-            "<b>The team was formed by 6 people:</b>",
-            "<b>Claudio Vignone:</b> Music and Sound Designer<br><b>Bruna Sosa:</b> 2D Designer<br><b>Matias Faviere:</b> 3D Designer<br><b>Gonzalo Martinez:</b> Programmer<br><b>Kaiel Maglione:</b> Programmer<br><b>Inti Fernández:</b> Programmer",
+            "<p>You're a decay inside a mouth with the objective of infect all the teeth, by pressing e while on it's side you'll be able to destroy them until you reach the root of every single teeth.</p>",
+            "<p>Move through the mouth evading the antibodies that want to stop you, shoot parts of yourself to distract them</p>",
+            "<p>Attach to the teeth to expose the root, pick food that lies around the mouth to throw it to destroy the roots.</p>",
+            "<p><b>The team was formed by 6 people:</b></p>",
+            "<p><b>Claudio Vignone:</b> Music and Sound Designer<br><b>Bruna Sosa:</b> 2D Designer<br><b>Matias Faviere:</b> 3D Designer<br><b>Gonzalo Martinez:</b> Programmer<br><b>Kaiel Maglione:</b> Programmer<br><b>Inti Fernández:</b> Programmer</p>",
             "<br>",
-            "The game was made for <b>Jam2Jam's Global Game Jam 2023.</b>"
+            "<p>The game was made for <b>Jam2Jam's Global Game Jam 2023.</b></p>"
         ]
     },
     {
@@ -101,19 +103,21 @@
         "role": "Game Designer, Programmer, Narrative Designer",
         "team": "3",
         "releaseDate": "2021",
-        "dedicatedTime": "4 months",
+        "dedicatedTime": "5 months",
         "engine": "Unity",
         "repository": "https://github.com/xnusef/Haste",
         "download": "https://texadev.itch.io/haste",
         "thumbnail": "Images/Games/Haste.png",
         "picture": "Images/GamesPage/Haste.png",
-        "shortDescription": "Speed and Humour were the theme that they gave us for this game. It was my first game, made as the final project for the labour university and we got the highest mark possible.<br>Every single thing in the game was learnt and made from scratch in 4 months.",
+        "shortDescription": "Speed and Humour were the theme that they gave us for this game. It was my first game, made as the final project for the labour university. <br><br>Every single thing in the game was learnt and made from scratch in 5 months.",
         "description": [
-            "You have no time, your boss is about to fire you and these people keeps interrupting you in your duty, defeat them all and find the ingredients your boss asked you.",
-            "Speed and Humour were the theme that they gave us for this game.",
-            "It was my first game, made as the final project for the labour university and we got the highest mark possible, Learning every single thing for the game during the process in only 4 months.",
-            "The team was formed by <b>3 people:</b>",
-            "<b>Braiam Rodriguez:</b> Project Management<br><b>Joel Silveira:</b> 2D Designer<br><b>Inti Fernández:</b> Game Designer, Programmer and Narrative Designer"
+            "<p>You have no time, your boss is about to fire you and these people keeps interrupting you in your duty, defeat them all and find the ingredients your boss asked you.</p>",
+            "<p>Speed and Humour were the theme that they gave us for this game.</p>",
+            "<p>It was my first game, made as the final project for the labour university",
+            "Learning every single thing for the game during the process in only 5 months. It was my first approach to <b>C#</b> language and <b>Unity Engine</b>.</p>",
+            "My job in the project included game design, setup assets on the game, create any script needed, import animations, design and implement timeline animations and dialogues among other things.",
+            "<p>The team was formed by <b>3 people:</b></p>",
+            "<p><b>Braiam Rodriguez:</b> Project Management<br><b>Joel Silveira:</b> 2D Designer<br><b>Inti Fernández:</b> Game Designer, Programmer and Narrative Designer</p>"
         ]
     },
     {
@@ -131,10 +135,10 @@
         "picture": "Images/GamesPage/Ping Online.png",
         "shortDescription": "My first attempt to create an online multiplayer game using mirror library for unity. I made the classic pong game with an alternative 4 player game mode, and then added multiplayer system.<br>The game was not fully tested but it should cover all basic functionality.",
         "description": [
-            "My first attempt to create an online multiplayer game using mirror library for unity. I made the classic pong game with an alternative 4 player game mode, and then added multiplayer system.",
-            "The game was not fully tested but it should cover all basic functionality.",
-            "You'll need any virtual networking service for the game work properly",
-            "The project was made on streaming with learning purposes"
+            "<p>My first attempt to create an online multiplayer game using mirror library for unity. I made the classic pong game with an alternative 4 player game mode, and then added multiplayer system.</p>",
+            "<p>The game was not fully tested but it should cover all basic functionality.</p>",
+            "<p>You'll need any virtual networking service for the game work properly</p>",
+            "<p>The project was made on streaming with learning purposes</p>"
         ]
     }
 ]

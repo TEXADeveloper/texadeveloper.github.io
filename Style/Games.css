@@ -147,9 +147,16 @@ main div.description {
 }
 
 main div.description h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 700;
     margin-top: 0rem;
+    margin-bottom: 1rem;
+}
+
+main div.description h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: 2rem;
     margin-bottom: 1rem;
 }
 
@@ -160,6 +167,14 @@ main div.description p {
 
 main div.description b {
     font-weight: 700;
+}
+
+main div.description img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 main div#descriptionOutput {

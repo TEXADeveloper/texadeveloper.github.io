@@ -61,7 +61,7 @@ function displayDescription(game) {
     let placeholder = document.getElementById('descriptionOutput');
     let out = "";
     for (var i in game.description) {
-        out += `<p>${game.description[i]}</p>`;
+        out += `${game.description[i]}`;
     }
     placeholder.innerHTML = out;
 }
