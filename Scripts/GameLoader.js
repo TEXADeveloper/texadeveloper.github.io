@@ -4,21 +4,27 @@ const id = urlParams.get('id');
 loadGameInfo(id);
 
 function loadGameInfo(id) {
+    if (id == "")
+        errorPage();
     return fetch('./Data/Games.json')
         .then(function(response) {
             return response.json();
         })
         .then(function(games) {
-            if (games.length <= id) {
-                window.location.replace(window.location.href.replace('Games.html?id=' + id,'') + "NotFound.html");
-            } else {
+            if (id < games.length && id >= 0) {
                 displayPage(games[id]);
                 displayImage(games[id]);
                 displayInfo(games[id]);
                 displayButton(games[id]);
                 displayDescription(games[id])
+            } else {
+                errorPage();
             }
         });
+}
+
+function errorPage() {
+    window.location.replace(window.location.href.replace('Games.html?id=' + id,'') + "NotFound.html");
 }
 
 function displayPage(game) {
